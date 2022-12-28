@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family : sans-serif,'popins'  ;
+}
+
+/* *********************for links  ****************/
+
+a{
+    text-decoration: none;
+    color:white ;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding : 5px;
+}
+
+.linkers{
+    font-size: 20px;
+    margin-left : 10px;
+    padding : 10px;
+}
+
+.linkers:hover{
+    border-radius: 50%;
+    border : 5px solid ;
+    border-left-color: #4285F4;
+    border-top-color: #DB4437;
+    border-right-color: #F4B400;
+    border-bottom-color: #0F9D58;
+}
+
+.social-links{
+    color: white ;
+    font-family: sans-serif;
+    font-size: 17px;
+
+    margin-left: 729px;
+    margin-top : 20px ;
+
+}
+
+/* ******************************************** */
+
+
+.college{
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    color : rgb(60, 205, 60)
+}
+
+body{
+    background-color: rgb(133, 192, 172);
+}
+
+.footer{
+    position: absolute;
+    bottom : 0px ;
+    width : 100% ;
+    /* border : 2px solid red ; */
+    background-color: #212529;
+    height : 600px ;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map{
+    margin-top : 0px ;
+    height: 400px;
+    width : 100% ;
+
+}
+
+
+/* lower section of footer  */
+
+#logo {
+    height: 27px;
+    width: 286px;
+}
+.lower {
+    position: relative;
+    top: 12px;
+    width: 100%;
+    padding-top: 6px;
+    height: 52px;
+    display: flex;
+   
+    flex-wrap: wrap;
+    /* border: 3px solid greenyellow; */
+    background-color: #6f7a842d;
+}
+
+.copy, .names {
+    font-family: sans-serif;
+    color: white;
+    padding-top: 3px;
+    font-size: 17px;
+}
+
+
+
+.copy {
+    /* border: 3px solid yellow; */
+    margin-left: 234px;
+}
+
+
+.names
+{
+    /* border : 3px solid yellow ; */
+    margin-left : 357px ;
+}
+
+
